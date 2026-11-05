@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text {
+    margin: 30px;
+
+}
+
+
+.text a {
+    color: black;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 3rem;
+    text-transform: uppercase;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.text a:hover {
+    transform: scale(1.1);
+    border-bottom: 5px solid rgba(0, 0, 0, 0.5);
+
+}
+
+.star {
+    width: 205px;
+    height: 195px;
+    background-image: url('../images/BackroundFill=blank.svg');
+    background-size: cover;
+    margin: 0 auto;
+    transition: backround-image 0.3s ease-in-out;
+}
+
+.star:active, .star:focus {
+background-image: url('../images/BackroundFill=golden.svg');
+
+
+}
